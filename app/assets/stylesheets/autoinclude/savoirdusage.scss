@@ -649,9 +649,13 @@ div.definition-data__item.duration {display: none;}
 
 /*Page propositions*/
 
-.filters__section:first-of-type{padding-top: 1.5rem;display: block !important;}
+/*.filters__section:first-of-type{padding-top: 1.5rem;display: block !important;}
 
 .filters__section, .filters__section--general {border-bottom: 1px solid #e8e8e8;padding: 1rem 1rem;display: none;}
+
+.filters__section:last-of-type, .filters__section--general:last-of-type {padding-bottom: 1.5rem;border-bottom: none;display: table !important;}*/
+
+.filters__section, .filters__section--general {border-bottom: 1px solid #e8e8e8;padding: 1rem 1rem;}
 
 .filters__section:last-of-type, .filters__section--general:last-of-type {padding-bottom: 1.5rem;border-bottom: none;display: table !important;}
 
